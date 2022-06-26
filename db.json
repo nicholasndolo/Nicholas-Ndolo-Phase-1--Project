@@ -1,0 +1,148 @@
+{
+    "Cars": [
+      {
+        "id": 1,
+        "name": "2022 Bently Flying Spur",
+        "image": "https://autonews-mag.com/images/Jey13sN0mHghd.jpg",
+        "price": "$200,825",
+        "YOM": "2017",
+        "manufacturer": "Bently Motors",
+        "reviews": [
+          "I am gonna say it again-: the guy who designed this car created a masterpiece It looks absolutely gorgeous",
+          "This is almost an overkill. The design is absolutely phenomenal. They deserve an award for this",
+          "Money can't buy happiness I would prefer to cry in a Bentley than crying in a Range Rover",
+          "that is one hell of a side profile. It looks menacing, stately, and sleek all at the same time. Bravo to the designers of this new version."
+        ]
+      },
+       {
+        "id": 2,
+        "name": "BMW AlPINA b8 Gran",
+        "image": "https://i.ytimg.com/vi/tW5VjTF7zv8/maxresdefault.jpg",
+        "price": "$139,900",
+        "YOM": "2014",
+        "manufacturer":"Alpina Burkand Bovensiepen GmbH & Co. kG",
+        "reviews": [
+          "Alpina never fails to create a top of the line car. Performance looks great, the beauty sounds great, I dont think any level headed person could hate on this car.",
+          "HOLY CRAP!!!, this car looks amazing. And the cinematography is absolutely top notch",
+          "Who said new BMW's don't look or sound as good as the old ones. Are you kidding me !!!! This thing is absolutely gorgeous from every angle inside and out and I am sure it drives amazing !!",
+          "Now THIS Alpina is set up right!!! Open those valves and let this baby BREATHE!!! Sharp interior with all the gadgets. Top-Notch presentation as always!!"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Marcedes EQS 580",
+        "image": "https://i.ytimg.com/vi/Q6NYWBhT13I/maxresdefault.jpg",
+        "price": "$125,900",
+        "YOM": "2015",
+        "manufacturer":"Mercededes-Benz Group AG",
+        "reviews":[
+            "One of the most annoying things about cars I always found was having to open and close the driver door.Great that this is now finally solved.",
+            "The interior is a vibe. Amazing car",
+            "What a amazing car,It took my heart away.",
+            "Wow, magnífico",
+            "What a car! My favorit car in the world."
+        ]
+        },
+      {
+        "id": 4,
+        "name": "Bently continental GT.",
+        "image": "https://www.trading-lux.com/wp-content/uploads/classified-listing/2020/03/Bentley-Continental-Gt-9-Edition-0.jpg",
+        "price": "$450,500",
+        "YOM": "2019",
+        "manufacturer":"Bently Motors",
+        "reviews": [
+          "To me a Bentley is the perfect cross between an Aston Martin and a Rolls Royce",
+          "I so much love Bentley",
+          "It is the real meaning of luxury performance. No other cars show this perfect blend of luxury and performance",
+          "This Bentley is beautiful, fast and can stop on a dime. Lovely machine"
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Range Rover Sport",
+        "image": "https://evspias.com/wp-content/uploads/2022/06/1654630075_Range-Rover-Sport-2023-first-contact-with-the-SUV-that.jpg",
+        "price": "$240,450",
+        "YOM": "2016",
+        "Manufacturer": "Land Rover Sport",
+        "reviews": [
+          "Just. Wow. The absolute perfect blend of minimal design and superior technology!",
+          "This is by far the best ad I've seen in my entire life. I Would've ordered the car right away if I could afford it at the moment. Absolutely beautiful.",
+          "This car is an absolute beauty. Class, comfort and agility all combined. Range rover never disappoints.",
+          "It doesn't scream luxury, it just is luxury. Loved this"
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Rolls Royce Panthom",
+        "image": "https://www.rolls-roycemotorcars.com/content/dam/rrmc/marketUK/rollsroycemotorcars_com/phantom-series-ii-in-detail/page-properties/01_RR_PHANTOM-single-twin-card-min.jpg",
+        "price": "480,768",
+        "YOM": "2020",
+        "manufacturer":"Rolls-Royce Motor Cars Limited",
+        "reviews": [
+          "Many of us can just imagine to buy this beast",
+          "OMG! THIS MY DREAM HUSBAND AND I'll DEFINITELY GET MARRIED TO THIS CAR AND PAY THE DOWRY LOL!",
+          "Rolls Royce stocks hasn't been great, the entire stock market is shit at the moment..",
+          "Dream car"
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Jaguar XJ",
+        "image": "https://media.autoexpress.co.uk/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1588330513/autoexpress/2020/05/Jaguar%20XJ%20-%20exclusive%20image.jpg",
+        "price": "$150,000",
+        "YOM": "2019",
+        "manufacturer":"Jaguar cars",
+        "reviews": [
+          "Everything about the Jag XJ makes me want one. Simply gorgeous in every way and no way would I even consider the competition from Germany...or anywhere else!!",
+          "What a fine piece of British engineering I WANT IT!!!",
+          "I remember when i first saw this in the street , the first thing that stuck me was the tail lights . magnifiscent.",
+          "As a German, this is really the best looking in its class. Usually I'm a Mercedes fanboy, but this….oh yes. Jag XF as well."
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Marcedez-Benz Maybach",
+        "image": "https://cdn.motor1.com/images/mgl/Q12WY/s1/2021-mercedes-maybach-s-class.jpg",
+        "price": "$184,900",
+        "YOM": "2020",
+        "manufacturer":"Mercededes-Benz Group AG",
+        "reviews": [
+          "Not just a masterpiece of engineering but also the art of luxurious",
+          "One beautifully engineered vehicle.  The epitome of a truly luxurious vehicle.  Nicely done presentation RoCars.",
+          "What I love about this over Rolls is the ambient lights. Just so classy yet so modern",
+          "used to work at a Mercedes dealership, and these things drive amazing. Its like driving on a cloud! Kinda miss working there, I got to drive everything!"
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Lexus LX 600",
+        "image": "https://www.motortrend.com/uploads/2021/10/2022-Lexus-LX600-21.jpg",
+        "price": "$86,900",
+        "YOM": "2014",
+        "Manufacturer":"Lexus(Toyota)",
+        "reviews": [
+          "it's actually a PRETTY NICE car",
+          "the brand that famous bcz of their reliabilitys , soliddd",
+          "This is the brutal..... You can say it's actually a fully suv",
+          "Lexus maintains their value batter than any brands",
+          "no matter what you do, you can't make a mercedes"
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Toyota Land Cruiser",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Toyota_Land_Cruiser_VX_VJA300W.jpg",
+        "price": "$180,200",
+        "YOM": "2011",
+        "manufacturer":"Toyota Land cruiser",
+        "reviews": [
+          "Favourite 4WD of Africa, The Middle East and Australia.If that doesnt answer your question? Well....then you are asking the wrong questions.",
+          "I like the classy design. Every car looks the same nowadays. This stands out.",
+          "I dont care what anyone says: king of suvs landcruiser and Patrol",
+          "Definitely does come with bigger wheels, though i think the 18s are what you want."
+        ]
+      }
+
+    ]
+    
+}

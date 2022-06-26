@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* background-blend-mode: multiply; */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* padding: 0 7%; */
+    display: flex;
+
+}
+
+/*nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}*/
+/*.logo{
+    width: 320px;
+    cursor: pointer;
+} 
+
+/*nav ul{
+    flex: 1;
+    text-align: center;
+
+}
+
+nav ul li{
+    display: inline-block;
+    display: 10px 20px;
+}*/
+
+.info{
+    width: 100%;
+    padding: 0 7%;
+    display: flex;
+    /* position:fixed; */
+   /*align-items: center;*/
+    color: #fff;
+   /*bottom: 100px;*/
+   /* left: 0;*/
+    flex-direction: column;
+}
+
+
+ /* .info div h2{   
+    font-size: 44px;
+    font-weight: 400;
+    color: aqua;
+    }    */
+
+    .price{
+     font-weight: bolder;
+     font-size: xx-large;
+    }
+
+
+.header h3 {
+    float: left;
+    width: 225px;
+    height: auto;
+    border-right: solid #404040 1px;
+    border-bottom: solid #404040 1px;
+    border-radius: 0 0 6px 0;
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    /* background-color: bisque; */
+
+  }
+
+/*#inquiry-form{
+    float: left;
+}*/
+
+#img{
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+
+}
+
+/*(#btn{
+    display: block;
+}
+*/
+
+.header #models {
+    font-weight: bold;
+    color: antiquewhite;
+    font-size: large;
+    margin-right: 20%;
+}
+
+
+.header h3:hover{
+    color: white;
+}
+
+.header #models li:hover{
+    color:aquamarine;
+}
+
+.inquiry-form {
+    width: 400px;
+    /*margin: 0 auto 50px auto;*/
+
+  }
+
+  textarea {
+    display: block;
+    width: 80%;
+    height: 50px;
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #review-list li {
+    background-color: #404040;
+    border-radius: 5px;
+    padding: 20px;
+    bottom: 0;
+    display: flex;
+  }
+
+  .class{
+    padding-left: 20px;
+    padding: 0 7%;
+    margin-right: 15%;
+    color:bisque;
+  }
+
+  #car-name{
+      color: azure;
+      font-weight: bolder;
+
+  }
+
+  .details{
+      display: flex;
+      justify-content: space-between;
+      width: 30vw;
+  }
+
+  #btn{
+      color: blue;
+      padding: 20px;
+      background-color: bisque;
+  }
+  
+  #mybtn{
+      padding: 20px;
+      background: beige;
+  }
+
+  
