@@ -1,4 +1,4 @@
- document.addEventListener("DOMContentLoaded", function(e){
+ //document.addEventListener("DOMContentLoaded", function(){
 
   const url = "http://localhost:3000/Cars"
   let button = document.querySelector(".inquiry-form")
@@ -60,6 +60,7 @@
         .catch((error) => console.warn(error));
     }
     carData();
+
     
     function carInfo(car_id) {
       fetch("http://localhost:3000/Cars/" + car_id)
@@ -88,6 +89,7 @@
     function  carClick(car_id){
       carInfo(car_id)
   }
+
   
 
 
@@ -121,4 +123,4 @@
   }
 
 
- })
+ //})

@@ -1,2 +1,2 @@
 # Phase-one-Project: Car Dealer Application.
-I am Nicholas, a student and a Junior developer at Moringa school. In this project i have created an API that renders basic info about cars on my application.I have used simple JavaSript, HTML and CSS to design an application where users can view the latest car models and their prices. 
+I am Nicholas, a student and a Junior developer at Moringa school. In this project I have created an API that renders basic info about cars on my application.I have used simple JavaSript, HTML and CSS to design an application where users can view the latest car models and their prices. 
