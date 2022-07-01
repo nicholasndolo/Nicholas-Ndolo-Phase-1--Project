@@ -160,11 +160,11 @@ nav ul li{
       width: 30vw;
   }
 
-  #btn{
+  /* #btn{ 
       color: blue;
       padding: 20px;
-      background-color: bisque;
-  }
+       background-color: bisque; 
+   } */
   
   #mybtn{
       padding: 20px;

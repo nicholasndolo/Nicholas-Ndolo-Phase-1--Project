@@ -1,6 +1,6 @@
  //document.addEventListener("DOMContentLoaded", function(){
 
-  const url = "http://localhost:3000/Cars"
+  const url = "https://pacific-coast-19269.herokuapp.com/Cars"
   let button = document.querySelector(".inquiry-form")
   const info = document.querySelector(".info")
   let price = document.getElementById("price")
@@ -42,7 +42,7 @@
 
 
   function carData() {
-      fetch(url)
+      fetch("https://pacific-coast-19269.herokuapp.com/Cars/")
         .then((response) => response.json())
         .then((cardata) => {
           const ul = document.getElementById("models");
@@ -57,13 +57,13 @@
 
           }
         })
-        .catch((error) => console.warn(error));
+        .catch((error) => console.log(error));
     }
     carData();
 
     
     function carInfo(car_id) {
-      fetch("http://localhost:3000/Cars/" + car_id)
+      fetch("https://pacific-coast-19269.herokuapp.com/Cars/" + car_id)
         .then((res) => res.json())
         .then((carData) => {
           let carName  = document.querySelector("#car-name");
@@ -82,19 +82,19 @@
               ul.appendChild(li)
           }
       })
-        .catch((error) => console.warn(error));
+        .catch((error) => console.log(error));
     }
     carInfo(4)
 
-    function  carClick(car_id){
-      carInfo(car_id)
+  function  carClick(car_id){
+    carInfo(car_id)
   }
 
   
 
 
     function postReviews(){
-        fetch("http://localhost:3000/Cars",{
+        fetch("https://pacific-coast-19269.herokuapp.com/Cars",{
             method: "PATCH",
             headers: {
               Accept: "application/json",
