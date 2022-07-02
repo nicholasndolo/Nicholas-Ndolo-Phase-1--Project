@@ -1,4 +1,4 @@
- //document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function(){
 
   const url = "https://pacific-coast-19269.herokuapp.com/Cars"
   let button = document.querySelector(".inquiry-form")
@@ -123,5 +123,5 @@
   }
 
 
- //})
+})
  
