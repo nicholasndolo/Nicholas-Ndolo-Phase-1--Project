@@ -84,7 +84,7 @@
       })
         .catch((error) => console.log(error));
     }
-    carInfo(4)
+    carInfo(1)
 
   function  carClick(car_id){
     carInfo(car_id)
