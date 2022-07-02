@@ -108,6 +108,11 @@ nav ul li{
     margin-right: 20%;
 }
 
+nav ul li {
+    padding: 5px;
+    cursor: pointer;
+  }
+
 
 .header h3:hover{
     color: gold;
