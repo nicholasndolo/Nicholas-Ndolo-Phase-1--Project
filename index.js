@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function(){
+//document.addEventListener("DOMContentLoaded", function(){
 
   const url = "https://pacific-coast-19269.herokuapp.com/Cars"
   let button = document.querySelector(".inquiry-form")
@@ -22,10 +22,6 @@ document.addEventListener("DOMContentLoaded", function(){
   function leaving(ev){
     ev.currentTarget.style.color = "gold";
   }
-
-
-
-
 
   button.addEventListener("submit", e => {
     e.preventDefault()
@@ -52,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function(){
             li.appendChild(document.createTextNode(car.name));
             li.id = car.id;
             li.onclick = "carClick()"
-            li.setAttribute("onclick","carClick("+car.id+")")
+            li.setAttribute("onclick","carClick("+car.id+")");
             ul.appendChild(li);
 
           }
@@ -86,14 +82,12 @@ document.addEventListener("DOMContentLoaded", function(){
     }
     carInfo(1)
 
-  function  carClick(car_id){
-    carInfo(car_id)
+  function carClick(car_id){
+    carInfo(car_id);
   }
 
-  
 
-
-    function postReviews(){
+  function postReviews(){
         fetch("https://pacific-coast-19269.herokuapp.com/Cars",{
             method: "PATCH",
             headers: {
@@ -123,5 +117,5 @@ document.addEventListener("DOMContentLoaded", function(){
   }
 
 
-})
+//})
  
