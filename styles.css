@@ -166,9 +166,11 @@ nav ul li{
   /* #btn{ 
       color: blue;
       padding: 20px;
-       background-color: bisque; 
+       backgroun-color: bisque; 
    } */
-  
+  .details p{
+    font-weight: bolder
+  }
    
   
 
