@@ -73,14 +73,14 @@ nav ul li{
 
 .header h3 {
     /* float: left; */
-    width: 225px;
+    width: 220px;
     height: auto;
     border-right: solid #404040 1px;
     border-bottom: solid #404040 1px;
     border-radius: 0 0 6px 0;
     padding: 10px;
     margin-right: 10px;
-    font-weight: bold;
+    font-weight: bolder;
     /* background-color: bisque; */
 
   }
@@ -177,8 +177,7 @@ nav ul li {
   .details p{
     font-weight: bolder
   }
-   
-  
+
 
 
 
